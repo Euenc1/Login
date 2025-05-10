@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url('https://source.unsplash.com/1600x900/?technology,background'); /* Exemplo de imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Site\ de\ Serviços\ de\ Contabilidade\ Ilustrações\ Verde.png);
+    background-position: cover;
+}
+
+.container {
+    background: rgba(247, 253, 248, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 300px;
+}
+
+.login-form h2 {
+    margin-bottom: 10px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.buttons button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #bdffd7;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #b9fad1;
+}
+
+.forgot-link {
+    font-size: 0.9em;
+    color: #0014ef;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
